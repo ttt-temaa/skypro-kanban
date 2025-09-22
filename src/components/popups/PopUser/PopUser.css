@@ -1,0 +1,75 @@
+.pop-user-set,
+.pop-exit,
+.pop-new-card,
+.pop-browse {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 375px;
+    min-height: 100vh;
+    z-index: 5;
+}
+
+/* PopExit */
+.pop-exit__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.4);
+}
+
+.pop-exit__block {
+    background: #fff;
+    padding: 50px 60px;
+    border-radius: 10px;
+}
+
+/* PopNewCard */
+.pop-new-card__block {
+    background: #fff;
+    padding: 40px 30px 48px;
+    border-radius: 10px;
+}
+
+.form-new__input,
+.form-new__area {
+    padding: 14px;
+    border: 0.7px solid rgba(148, 166, 190, 0.4);
+    border-radius: 8px;
+}
+
+.form-new__create {
+    width: 132px;
+    height: 30px;
+    background: #565eef;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* PopBrowse */
+.pop-browse__block {
+    background: #fff;
+    padding: 40px 30px 38px;
+    border-radius: 10px;
+}
+
+.form-browse__area {
+    padding: 14px;
+    border-radius: 8px;
+    background: #eaeef6;
+    border: 0.7px solid rgba(148,166,190,0.4);
+}
+
+/* адаптив */
+@media screen and (max-width: 660px) {
+    .pop-new-card,
+    .pop-browse {
+        top: 70px;
+    }
+    .pop-new-card__container,
+    .pop-browse__container {
+        justify-content: flex-start;
+    }
+}
