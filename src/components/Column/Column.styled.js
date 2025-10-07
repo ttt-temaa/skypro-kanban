@@ -20,11 +20,11 @@ export const Title = styled.div`
 `;
 
 export const CardsContainer = styled.div`
-  width: 100%;
-  display: block;
-  position: relative;
+    width: 100%;
+    display: block;
+    position: relative;
 `;
 
 export const EmptyColumnMessage = styled.p`
-    color: #94a6be;
+  color: #94a6be;
 `;
