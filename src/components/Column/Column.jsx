@@ -1,4 +1,4 @@
-import "./Column.css";
+import "../App/App.css";
 
 export default function Column({ title, children }) {
     return (

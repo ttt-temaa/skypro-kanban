@@ -1,4 +1,4 @@
-import "./Main.css";
+import "../App/App.css";
 import Column from "../Column/Column";
 import Card from "../Card/Card";
 

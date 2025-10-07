@@ -1,4 +1,4 @@
-import "./PopBrowse.css";
+import "../../App.css";
 
 export default function PopBrowse() {
     return (

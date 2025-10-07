@@ -1,4 +1,4 @@
-import "./PopUser.css";
+import "../../App.css";
 
 export default function PopUser() {
     return (

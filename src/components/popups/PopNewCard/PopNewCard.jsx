@@ -1,4 +1,4 @@
-import "./PopNewCard.css";
+import "../../App.css";
 
 export default function PopNewCard() {
     return (

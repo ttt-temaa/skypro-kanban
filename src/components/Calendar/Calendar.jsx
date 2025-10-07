@@ -1,4 +1,4 @@
-import "./Calendar.css";
+import "../App/App.css";
 
 export default function Calendar() {
     return (
