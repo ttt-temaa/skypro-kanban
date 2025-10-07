@@ -1,30 +1,35 @@
-import styled from "styled-components";
+import React from "react";
 
-export const Container = styled.div`
-  width: 20%;
-  margin: 0 auto;
-  display: block;
-`;
+import "./Header.styled.js";
+import UserProfile from "../popups/PopUser/PopUser.jsx";
 
-export const Title = styled.div`
-  padding: 0 10px;
-  margin: 15px 0;
+import {
+    HeaderContainer, ContainerH, HeaderBlock, HeaderLogo, HeaderNav, HeaderBtn,
+} from "./Header.styled.js";
 
-  & p {
-    color: #94a6be;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1;
-    text-transform: uppercase;
-  }
-`;
+function Header() {
+    return (<HeaderContainer>
+        <ContainerH>
+            <HeaderBlock>
+                <HeaderLogo HeaderLogo className="_light">
+                    <a href="" target="_self">
+                        <img src="images/logo.png" alt="logo"/>
+                    </a>
+                </HeaderLogo>
+                <HeaderLogo className="_dark">
+                    <a href="" target="_self">
+                        <img src="images/logo_dark.png" alt="logo"/>
+                    </a>
+                </HeaderLogo>
+                <HeaderNav>
+                    <HeaderBtn className="_hover01" id="btnMainNew">
+                        <a href="#popNewCard">Создать новую задачу</a>
+                    </HeaderBtn>
+                    <UserProfile/>
+                </HeaderNav>
+            </HeaderBlock>
+        </ContainerH>
+    </HeaderContainer>);
+}
 
-export const CardsContainer = styled.div`
-  width: 100%;
-  display: block;
-  position: relative;
-`;
-
-export const EmptyColumnMessage = styled.p`
-    color: #94a6be;
-`;
+export default Header;

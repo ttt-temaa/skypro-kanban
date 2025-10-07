@@ -14,6 +14,7 @@ export const PopNewCardCnt = styled.div`
   left: 0;
   z-index: 6;
 `;
+
 export const PopNewCardContainer = styled.div`
   width: 100%;
   height: 100%;
