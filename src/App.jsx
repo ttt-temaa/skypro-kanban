@@ -1,4 +1,4 @@
-import AuthProvider from "../../context/AuthProvider.jsx";
+import AuthProvider from "./components/context/AuthProvider.jsx";
 import AppRoutes from "./components/AppRoutes.jsx";
 import "./components/App/App.css";
 
