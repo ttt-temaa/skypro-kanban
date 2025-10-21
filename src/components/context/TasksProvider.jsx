@@ -1,6 +1,6 @@
 import {useContext, useState, useEffect} from "react";
 import {AuthContext} from "./AuthContext";
-import {fetchTasks} from "../services/api";
+import {fetchTasks} from "../../services/api.js";
 import {TasksContext} from "./TasksContext";
 
 export const TasksProvider = ({children}) => {

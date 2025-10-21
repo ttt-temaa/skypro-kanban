@@ -6,7 +6,7 @@ import {
     BaseButton, WrapperWindow, ModalWindowStart, WrapperWindowTitle, InputStart, FormGroupStart, StyledLink,
 } from "./AuthForm.styled.js";
 
-import {AuthContext} from "../../context/AuthContext.js";
+import {AuthContext} from "../context/AuthContext.js";
 
 const AuthForm = ({isSignUp}) => {
     const navigate = useNavigate();

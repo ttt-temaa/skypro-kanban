@@ -8,7 +8,7 @@ import {
 import PopBrowse from "../components/popups/PopBrowse/PopBrowse.jsx";
 import PopNewCard from "../components/popups/PopNewCard/PopNewCard.jsx";
 import {fetchTasks} from "../services/api.js";
-import {TasksProvider} from "../context/TasksProvider.jsx";
+import {TasksProvider} from "../components/context/TasksProvider.jsx";
 
 const columns = ["Без статуса", "Нужно сделать", "В работе", "Тестирование", "Готово",];
 
